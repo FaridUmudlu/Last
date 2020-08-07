@@ -1,7 +1,9 @@
 .container-main {
   width: 1170px;
   padding: 0;
+
   margin: auto;
+
 }
 
 .container-middle {
@@ -18,6 +20,164 @@
 
 body {
   font-family: 'Poppins', sans-serif;
+
+}
+
+.app {
+  margin-top: 100px;
+}
+
+.app > .container-small {
+  width: 980px;
+  margin: auto;
+}
+
+.app > .container-small > .row h1 {
+  width: 100%;
+  font-weight: bold;
+  margin: auto;
+  text-align: center;
+  color: #1F1F33;
+}
+
+.app > .container-small > .row p {
+  width: 100%;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 10px;
+  color: #1F1F33;
+}
+
+.app > .container-small > .row > .col-6 {
+  margin-top: 40px;
+  width: calc(100%/12*6);
+}
+
+.app > .container-small > .row > .col-12 {
+  margin-top: 40px;
+  width: calc(100%/12*12);
+}
+
+.app > .container-small > .row > .col-6 > .finance {
+  margin-top: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  z-index: 2;
+}
+
+.app > .container-small > .row > .col-6 > .finance > .details {
+  position: absolute;
+  z-index: 3;
+  height: 115px;
+  margin-top: 60px;
+  padding: 0px 40px 0px 40px;
+}
+
+.app > .container-small > .row > .col-6 > .finance > .details h1 {
+  text-align: start;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 34px;
+}
+
+.app > .container-small > .row > .col-6 > .finance > .details p {
+  text-align: start;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.app > .container-small > .row > .col-6 > .finance > .details span {
+  text-align: start;
+  text-decoration: underline;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.app > .container-small > .row > .col-6 > .currency {
+  margin-top: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  z-index: 2;
+}
+
+.app > .container-small > .row > .col-6 > .currency > .details {
+  position: absolute;
+  z-index: 5;
+  height: 115px;
+  margin-top: 60px;
+  padding: 0px 40px 0px 40px;
+}
+
+.app > .container-small > .row > .col-6 > .currency > .details h1 {
+  text-align: start;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 34px;
+}
+
+.app > .container-small > .row > .col-6 > .currency > .details p {
+  text-align: start;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.app > .container-small > .row > .col-6 > .currency > .details span {
+  text-align: start;
+  text-decoration: underline;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.app > .container-small > .row > .col-12 > .email {
+  margin-top: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  z-index: 2;
+}
+
+.app > .container-small > .row > .col-12 > .email > .details {
+  position: absolute;
+  height: 300px;
+  z-index: 3;
+  width: 500px;
+  padding: 0px 0px 0px 70px;
+  padding-top: 140px;
+}
+
+.app > .container-small > .row > .col-12 > .email > .details h1 {
+  text-align: start;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 34px;
+}
+
+.app > .container-small > .row > .col-12 > .email > .details p {
+  text-align: start;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.app > .container-small > .row > .col-12 > .email > .details span {
+  text-align: start;
+  text-decoration: underline;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+
 }
 
 
@@ -300,7 +460,6 @@ body {
   position: absolute;
   top: -179px;
   right: -119px;
-
 
 }
 /*# sourceMappingURL=style.css.map */
